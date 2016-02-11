@@ -1,0 +1,17 @@
+messages:
+  emptyLottery: The lottery is empty
+  itemReward: You win 
+  unnamedLottery: You must specify the name of the lottery
+  unknownLottery: The lottery doesn't exist
+  noLottery: There is no lottery
+  availableLottery: Lotteries available
+  noPermission: You don't have the permission
+  invalidName: Invalid name
+commandDescription:
+  add: adds the item in hand to the lottery name
+  show: shows the items in the lottery name
+  create: create the lottery name
+  get: get an item from the lottery name
+  list: list lotteries available
+  reload: reload the plugin
+  give: give an item from the lottery name to the specified player

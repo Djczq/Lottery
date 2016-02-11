@@ -1,0 +1,49 @@
+name: Lottery
+main: com.djczq.lottery.Lottery
+version: 1.0
+author: Djczq
+commands:
+  lotteryadd:
+    description: ajoute l'item en main dans la lottery name
+    usage: lotteryadd name
+    aliases:
+      - ladd
+    permission: lottery.add
+  lotteryshow:
+    description: affiche les items dans la lottery name
+    usage: lotteryshow name
+    aliases:
+      - lshow
+    permission: lottery.show
+  lotteryget:
+    description: donne un item present dans la lottery name
+    usage: lotteryget name
+    aliases:
+      - lget
+    permission: lottery.get
+  lotterycreate:
+    description: cree la lottery name
+    usage: lotterycreate name
+    aliases:
+      - lcreate
+    permission: lottery.create
+  lotterylist:
+    description: liste les lotteries existantes
+    usage: lotterylist
+    aliases:
+      - llist
+    permission: lottery.list
+  lotteryreload:
+    description: reload le plugin
+    usage: lotteryreload
+    aliases:
+      - lreload
+    permission: lottery.reload
+  lotterygive:
+    description: donne un item present dans la lottery name au joueur specifie
+    usage: lotterygive name player
+    aliases:
+      - lgive
+    permission: lottery.give
+      
+   

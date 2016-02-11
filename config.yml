@@ -1,0 +1,41 @@
+language: lang_fr.yml
+list:
+  example:
+  - ==: org.bukkit.inventory.ItemStack
+    type: WHEAT
+  - ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTMENT_TABLE
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ALL: 1
+  - ==: org.bukkit.inventory.ItemStack
+    type: ANVIL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: example
+      repair-cost: 1
+  - ==: org.bukkit.inventory.ItemStack
+    type: STRING
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        PROTECTION_ENVIRONMENTAL: 1
+  - ==: org.bukkit.inventory.ItemStack
+    type: WRITTEN_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: BOOK_SIGNED
+      title: Example_Book
+      author: Djczq
+      pages:
+      - example of text written in a book
+      generation: 0
