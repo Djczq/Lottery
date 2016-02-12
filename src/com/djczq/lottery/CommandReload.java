@@ -14,6 +14,7 @@ public class CommandReload implements CommandExecutor {
 		}
 		return false;
 	}
+	//test
 	CommandReload(Lottery l){
 		lottery=l;
 	}
