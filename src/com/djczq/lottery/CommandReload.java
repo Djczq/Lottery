@@ -15,7 +15,7 @@ public class CommandReload implements CommandExecutor {
 		return false;
 	}
 	//test
-	//commit via eclipse
+	//commit via eclipse 2
 	CommandReload(Lottery l){
 		lottery=l;
 	}
